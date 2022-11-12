@@ -12,12 +12,11 @@ Proyecto en desarrollo para crear un portafolio propio, que le permita a recluta
 
 ## Funcionalidades
 
-...
+... pendiente
 
 ## Tecnologías utilizadas
 
-HTML
-CSS
+HTML y CSS
 
 ## Autores ✒️
 
