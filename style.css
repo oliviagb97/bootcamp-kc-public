@@ -1,0 +1,222 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	margin-right: 15px;
+	margin-left: 15px; 
+}
+
+/*Menu*/
+.navbar {
+	width: 100%;
+	background-color: #F7F7F7;
+	position: fixed;
+	top: 0;
+}
+
+.navbar > .menu {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	font-size: 0;
+}
+
+.navbar > .menu > .menu-item {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar > .menu > .menu-item > .menu-link {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.92);
+	transition: all 1s;
+}
+
+.navbar > .menu > .menu-item.active > .menu-link {
+	color: #F7F7F7;
+	background-color: #A4A4A4;
+}
+
+.navbar > .menu > .menu-item > .menu-link:hover {
+	color: #F7F7F7;
+	background-color: #A4A4A4;
+}
+/*Fin Menu*/
+
+/*Header*/
+.header > .header-titulo {
+	color: #090909;
+	position: absolute;
+	top: 15%;
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+	text-transform: uppercase;
+	font-family: roboto;	
+}
+
+.header > .header-titulo-img {
+	width: 100%;
+	background-image: url("imagenes/portaf-img.png");
+	background-position: center center;
+	height: 60vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: roboto;
+	transition: background-size 1s;
+}
+
+.header > .header-titulo-img:hover{
+	background-size: 120% 120%;
+}
+/*Fin Header*/
+
+/*Footer*/
+.footer-navbar {
+	width: 100%;
+	background-color: #F7F7F7;
+	position: fixed;
+	bottom: 0;
+    text-align: center;
+}
+
+.footer-navbar > .footer-menu {
+	list-style-type: none;
+	margin: 0;
+	float: center;
+	font-size: 0;
+}
+
+.footer-navbar > .footer-menu > .footer-menu-item {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.footer-navbar > .footer-menu > .footer-menu-item > .footer-menu-link {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.92);	
+}
+
+.footer-navbar > .footer-menu > .footer-menu-item > .footer-menu-link > img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-navbar > .footer-menu > .footer-menu-item.active > .footer-menu-link {
+	color: #F7F7F7;
+	background-color: #A4A4A4;
+}
+
+.footer-navbar > .footer-menu > .footer-menu-item > .footer-menu-link:hover {
+	color: #F7F7F7;
+	background-color: #A4A4A4;
+}
+/*Fin Footer*/
+
+/*Progress Bar*/
+
+.progress-list{
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
+.progress {
+    background: rgba(240, 7, 7, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 30px;
+    width: 500px;
+	margin: 15px;
+  }
+  
+  .progress-value {    
+    box-shadow: 0 10px 40px -10px rgb(13, 236, 72);
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+
+  .progress-html {
+	animation: loadHTML 3s normal forwards;
+}
+
+.progress-python {
+	animation: loadPYTHON 3s normal forwards;
+}
+.progress-css {
+	animation: loadCSS 3s normal forwards;
+}
+
+  .progress-text{
+	margin-right: 10px;
+  }
+  
+  @keyframes loadPYTHON {
+    0% { width: 0; }
+    100% { width: 18%; }
+  }
+
+  @keyframes loadHTML {
+    0% { width: 0; }
+    100% { width: 25%; }
+  }
+
+  @keyframes loadCSS {
+    0% { width: 0; }
+    100% { width: 15%; }
+  }
+/*Fin Progress Bar*/
+
+.about-me{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;	
+}
+
+.info{
+	padding-right: 10px;
+}
+
+/*Formulario*/
+.section-form{
+	display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.form {
+	padding: 0 20px;	
+}
+
+.form .form-contact {
+	padding: 10px;
+}
+
+input {
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset], button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 40px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0px;
+}
+/*fin Formulario*/
