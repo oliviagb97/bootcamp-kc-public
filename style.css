@@ -16,7 +16,7 @@ section{
 	top: 0;
 }
 
-.navbar > .menu {
+.navbar > .menu { 
 	list-style-type: none;
 	margin: 0;
 	float: right;
