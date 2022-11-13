@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-item">
+                <a class="menu-link" href="#">Proyectos</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="#">Descripción</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="#">Habilidades</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1 class="header-titulo">Portafolio</h1>
+        <div class="header-titulo-img"></div>
+    </header>
+
+    <main class="container">
+
+        <section id="descripcion" class="about-me">
+            <div class="info">
+                <h2>Quien soy</h2> <strong>Olivia González Basanta:</strong> <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                    do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            </div>
+
+            <div class="progress-list">
+                <div class="progress">
+                    <div class="progress-text">HTML</div>
+                    <div class="progress-value progress-html">
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-text">CSS</div>
+                    <div class="progress-value progress-css">
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-text ">PYTHON</div>
+                    <div class="progress-value progress-python">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-form">
+            <h2>Contacta con Olivia</h2>
+            <div>
+                <form id="form-contact" class="form" name="contact-olivia" method="get" novalidate>
+                    <div class="form-contact">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-contact">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+                    </div>
+                    <div class="form-contact">
+                        <label for="phone">Teléfono: </label>
+                        <input type="phone" id="phone" name="phone" placeholder="xxx xx xx xx"
+                            pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9\.]+">
+                    </div>
+                    <div class="form-contact">
+                        <label for="fuente">¿Cómo me conociste?:</label>
+                        <input type="radio" id="fuente" name="fuente" value="¿Cómo me conociste?" required>
+                        <label for="fuente_2">Universidad</label>
+                        <input type="radio" id="fuente_2" name="fuente" value="Universidad" required>
+                        <label for="fuente_3">Keepcoding kick-off</label>
+                        <input type="radio" id="fuente_3" name="fuente" value="Keepcoding kick-off" required>
+                        <label for="fuente_4">Colegio</label>
+                        <input type="radio" id="fuente_4" name="fuente" value="Colegio" required>
+                        <label for="fuente_5">En Github</label>
+                        <input type="radio" id="fuente_5" name="fuente" value="En Github" required>
+                    </div>
+                    <div class="form-contact">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="usuario" pattern="^([a-z]+[0-9]{0,2}){5,12}$" required />
+                    </div>
+                    <div class="form-contact">
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <nav class="footer-navbar">
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a class="footer-menu-link" href="httP://www.facebook.com" target="_blank"><img src="icono-fbk.png"
+                            alt="Facebook"></a>
+                </li>
+                <li class="footer-menu-item">
+                    <a class="footer-menu-link" href="#" target="_blank"><img src="icono-fbk.png" alt="Facebook"></a>
+                </li>
+                <li class="footer-menu-item">
+                    <a class="footer-menu-link" href="#" target="_blank"><img src="icono-fbk.png" alt="Facebook"></a>
+                </li>
+                <li class="footer-menu-item">
+                    <a class="footer-menu-link" href="#" target="_blank"><img src="icono-fbk.png" alt="Facebook"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
